@@ -120,7 +120,7 @@ body {
 }
 #es-armani.es-armani .es-category__item-title {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   text-align: center;
   color: #000000;
@@ -449,7 +449,7 @@ body {
   }
   #es-armani.es-armani .es-video__player--desktop {
     display: block;
-    min-height: 507px;
+    min-height: 675px;
   }
   #es-armani.es-armani .es-video__play-button--mobile {
     display: none;

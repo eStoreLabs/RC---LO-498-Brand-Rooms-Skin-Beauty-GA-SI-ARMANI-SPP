@@ -139,7 +139,7 @@ body {
 
     &__item-title {
       font-family: $regular;
-      font-weight: 500;
+      font-weight: 700;
       font-size: 20px;
       text-align: center;
       color: $black;
@@ -491,7 +491,7 @@ body {
         }
         &--desktop {
           display: block;
-          min-height: 507px;
+          min-height: 675px;
         }
       }
       &__play-button {
