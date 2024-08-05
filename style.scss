@@ -76,6 +76,10 @@ body {
     &__image {
       @include img;
       margin-bottom: 30px;
+
+      &--desktop {
+        display: none;
+      }
     }
 
     &__title {
@@ -506,6 +510,17 @@ body {
   }
 
   @media screen and (min-width: 600px) {
+    .es-banner {
+      &__image {
+        &--desktop {
+          display: block;
+        }
+
+        &--mobile {
+          display: none;
+        }
+      }
+    }
     .es-category {
       &__items {
         flex-direction: row;
@@ -551,6 +566,12 @@ body {
       margin-bottom: 60px;
       font-size: 30px;
       text-align: center;
+    }
+
+    .es-banner {
+      &--reverse {
+        flex-direction: row-reverse;
+      }
     }
 
     .es-info {

@@ -58,6 +58,9 @@ body {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+#es-armani.es-armani .es-banner__image--desktop {
+  display: none;
+}
 #es-armani.es-armani .es-banner__title {
   margin: 0;
   padding: 0;
@@ -459,6 +462,12 @@ body {
   }
 }
 @media screen and (min-width: 600px) {
+  #es-armani.es-armani .es-banner__image--desktop {
+    display: block;
+  }
+  #es-armani.es-armani .es-banner__image--mobile {
+    display: none;
+  }
   #es-armani.es-armani .es-category__items {
     flex-direction: row;
     gap: 30px;
@@ -496,6 +505,9 @@ body {
     margin-bottom: 60px;
     font-size: 30px;
     text-align: center;
+  }
+  #es-armani.es-armani .es-banner--reverse {
+    flex-direction: row-reverse;
   }
   #es-armani.es-armani .es-info {
     position: relative;
